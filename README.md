@@ -1,2 +1,2 @@
-# TIL-v2
-Today I learn...(2021.04~)
+# Today I Learn(versio2)
+  - date : 2021.04.07 ~ ing
