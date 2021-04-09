@@ -1,0 +1,53 @@
+"""
+Section 2
+Parallelism with MultiProcessing > multiprocessing(2) : Naming
+keyword : Naming, parallel processing
+"""
+from multiprocessing import Process, current_process
+from multiprocessing.process import parent_process
+import os
+import random
+import time
+
+
+# 실행
+def square(n):
+    # random sleep
+    time.sleep(random.randint(1,3))
+    process_id = os.getpid()
+    process_name = current_process().name
+    
+    # 제곱
+    result = n**2
+    print(f'Process ID : {process_id}, Process Name : {process_name}')
+    print(f'Result of {n} square : {result}')
+
+
+# 메인
+if __name__ == '__main__':
+    # 부모 프로세스 아이디
+    parent_process_id = os.getpid()
+    
+    # 출력
+    print(f'Parent Process ID : {parent_process_id}')
+    
+    # 프로세스 리스트 선언
+    processes = list()
+    
+    # 프로세스 생성 및 실행
+    for i in range(1, 10):
+        # 생성
+        p = Process(name=str(i), target=square, args=(i,))
+        
+        # 배열에 담기
+        processes.append(p)
+        
+        # 시작
+        p.start()
+        
+    for process in processes:
+        process.join()
+        
+    # 종료
+    print('Main-Processing Done!')
+    
