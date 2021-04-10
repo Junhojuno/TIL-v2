@@ -1,6 +1,7 @@
 # Today I Learn, version 2
   - date : 2021.04.07 ~ ing
   - author : Kim Junho
+  - topic : MultiThreading, MultiProcessing, Concurrency,...
 
 
 ### Reference
