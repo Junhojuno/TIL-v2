@@ -3,6 +3,8 @@
   - author : Kim Junho
   - topic : 
     - multi-processing/threading, concurrency
+    - metaclass, descriptor
+    - coroutine
     - visualization
 
 
