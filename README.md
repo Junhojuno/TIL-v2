@@ -4,7 +4,7 @@
   - topic : 
     - multi-processing/threading, concurrency
     - metaclass, descriptor, dynamic class
-    - coroutine
+    - generator, coroutine
     - visualization
 
 
