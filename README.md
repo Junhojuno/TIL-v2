@@ -1,7 +1,7 @@
 # Today I Learn, version 2
-  - date : 2021.04.07 ~ ing
-  - author : Kim Junho
-  - topic : 
+  - Date : 2021.04.07 ~ ing
+  - Author : Kim Junho
+  - Topic : 
     - multi-processing/threading, concurrency
     - metaclass, descriptor, dynamic class
     - generator, coroutine
