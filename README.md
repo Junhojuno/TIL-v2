@@ -9,7 +9,7 @@
     - visualization
 
 
-### Reference
+### References
   - [Multi-Processing/Threading & Concurrency : Inflearn original level 4](https://www.inflearn.com/course/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%99%84%EC%84%B1-%EC%9D%B8%ED%94%84%EB%9F%B0-%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90#)
   - [Logging class : post](https://greeksharifa.github.io/%ED%8C%8C%EC%9D%B4%EC%8D%AC/2019/12/13/logging/)
   - [Descriptor : official document](https://docs.python.org/ko/3/howto/descriptor.html)
