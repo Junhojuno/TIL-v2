@@ -36,7 +36,7 @@ class Directory:
 ```
 ### Descriptor 사용 예시(2) : Attribute access 관리
 - Python Descriptor official 자료가 좋지않아 예제를 약간 변형함.
-- 다음 코드는 [여기]()와 동일함.
+- 다음 코드는 [여기](https://github.com/Junhojuno/TIL-v2/blob/main/descriptor/02_descriptor2.py)와 동일함.
 ```python
 import logging
 
