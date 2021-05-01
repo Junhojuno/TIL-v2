@@ -3,7 +3,8 @@
   - Author : Kim Junho
   - Topic : 
     - multi-processing/threading, concurrency
-    - metaclass, descriptor, dynamic class
+    - metaclass, dynamic class
+    - property, descriptor
     - generator, coroutine
     - visualization
 
