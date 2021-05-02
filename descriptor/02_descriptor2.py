@@ -16,8 +16,12 @@ import os
 import logging
 
 
+# logging.basicConfig(format='%(asctime)s %(message)s',
+#                     level=logging.INFO,
+#                     datefmt='%Y-%m-%d %H:%M:%S')
+
 logging.basicConfig(format='%(asctime)s %(message)s',
-                    level=logging.INFO,
+                    level=logging.DEBUG,
                     datefmt='%Y-%m-%d %H:%M:%S')
 
 
@@ -26,11 +30,13 @@ class LoggedScoreAccess:
         self.value = value
         
     def __get__(self, obj, objtype=None):
-        logging.info('Accessing %r giving %r', 'score', self.value)
+        # logging.info('Accessing %r giving %r', 'score', self.value)
+        logging.debug('Accessing %r giving %r', 'score', self.value)
         return self.value
     
     def __set__(self, obj, value):
-        logging.info('Updating %r giving %r', 'score', self.value)
+        # logging.info('Updating %r giving %r', 'score', self.value)
+        logging.debug('Updating %r giving %r', 'score', self.value)
         self.value = value
 
 
@@ -74,3 +80,4 @@ if __name__ == '__main__':
     print('vars(s2) : ', vars(s2))
     print('s1.__dict__ : ', s1.__dict__)
     print('s2.__dict__ : ', s2.__dict__)
+    
