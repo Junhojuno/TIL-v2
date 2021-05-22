@@ -2,7 +2,7 @@
   - Date : 2021.04.07 ~ ing
   - Author : Kim Junho
   - Topic : 
-    - multi-processing/threading, concurrency
+    - multiprocessing, threading, concurrency
     - metaclass, dynamic class
     - property, descriptor
     - generator, coroutine
